@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(2, 255, 234);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orangered;
+    padding: 5px;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-family:'Titillium Web', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.logo{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
