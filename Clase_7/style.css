@@ -1,0 +1,57 @@
+:root {
+    --background: ;
+    --primary: ;
+    --secondary: #272d37;
+
+    /*Text colors*/
+
+    --text-gray: ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px 0px 30px;
+
+    background: var(--secondary);
+
+}
+
+.logo{
+
+}
+
+.navbar,
+.navbarlist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar{
+    gap: 100px;
+
+}
+
+.navbarlist{
+    gap: 30px;
+
+}
+
+.navbarlist a{
+    color: var(--text-gray);
+    font-size: 14px;
+}
