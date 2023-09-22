@@ -127,7 +127,7 @@ hr {
   align-items: center;
   text-align: center;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
 }
 
 .info-cards div {
@@ -136,4 +136,37 @@ hr {
   background: var(--secondary);
   border-radius: 10px;
   padding: 40px 30px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.data > h2 {
+  margin: 30px;
+}
+
+.logocontact {
+  width: 450px;
+  border-radius: 15px;
+}
+
+.data-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+.logofooter {
+  width: 50px;
 }
